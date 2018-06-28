@@ -44,4 +44,6 @@ trait Implicit2[T2] {
 ```
 
 ### 展望
-1. 针对 shapeless 和 slick Table 的一些提示，做到报告出 HList 对应元素的索引号、类型、
+1. 实现针对 shapeless、slick Table 和 play-json 的一些提示，做到报告出 HList
+对应元素的索引号、类型、字段名称的信息
+1. 在 asuna 中的用法和写法更加规范
